@@ -1,0 +1,13 @@
+fw20_0039	Neha Pandey	nehushree0194@gmail.com	FT-WEB-20	WEB101	21
+fw20_0042	Prankush Rana	prankushrana2296@gmail.com	FT-WEB-20	WEB101	
+fw20_0081	Raj Narayan	rajnarayan9031@gmail.com	FT-WEB-20	WEB101	
+fw20_0095	Gauri Bidwai	g4ur131@gmail.com	FT-WEB-20	WEB101	
+fw20_0122	Nitin Vilas Jadhav	nitin200298@gmail.com	FT-WEB-20	WEB101	
+
+
+
+txt file+ repo -Gauri Bidwai
+navbar.html-Neha Pandey
+signup.html-Prankush Rana
+login.html-Raj Narayan
+mens.html-Nitin Vilas Jadhav
