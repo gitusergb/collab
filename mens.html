@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+
+    <style>
+        #container{
+            width: 90%;
+            height: auto;
+            border: 0px solid red;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: auto;
+            gap: 30px;
+            margin-top: 80px;
+        }
+
+        #container > div{
+            border: 0px solid blue;
+            font-size: 30px;
+        }
+
+        #container > div > img{
+            width: 50%;
+            margin-left: 140px;
+            
+        }
+
+        #container > div > div{
+            width: 70%;
+            border: 0px solid red;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: auto;
+            justify-content: space-between;
+        }
+
+        #container > div > h3{
+            margin: 10px;
+        }
+        #container > div > p{
+            font-size: 30px;
+            margin: 10px;
+            color: gray;
+        }
+
+        #container > div > div{
+            margin: 10px;
+        }
+
+        #container > div > div > div:nth-child(1){
+            font-weight: bold;
+        }
+        #container > div > div > div:nth-child(2){
+            text-decoration: line-through;
+            color: gray;
+        }
+        #container > div > div > div:nth-child(3){
+            font-weight: bold;
+            color: greenyellow;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div>
+            <img src="https://rukminim1.flixcart.com/image/800/960/xif0q/track-pant/m/y/u/m-67030203-puma-original-imag7sbvrybstdxm-bb.jpeg?q=50" alt="">
+            <h3>Ms Pants</h3>
+            <p>Ms Pants TR I Solid Men Grey Track Pants</p>
+            <div>
+                <div>RS 399</div>
+                <div>RS 1499</div>
+                <div>-79%</div>
+            </div>
+        </div>
+        <div>
+            <img src="https://rukminim1.flixcart.com/image/800/960/xif0q/track-pant/m/y/u/m-67030203-puma-original-imag7sbvrybstdxm-bb.jpeg?q=50" alt="">
+            <h3>Ms Pants</h3>
+            <p>Ms Pants TR I Solid Men Grey Track Pants</p>
+            <div>
+                <div>RS 399</div>
+                <div>RS 1499</div>
+                <div>-79%</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
