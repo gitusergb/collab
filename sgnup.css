@@ -1,0 +1,65 @@
+#main{
+    padding-top: 5%;
+    width: 30vw;
+    height: 30vw;
+    background-color: rgb(51, 156, 230);
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 8px;
+
+}
+#main>h1{   
+    text-align: center;
+    margin-top: -60px;
+}
+
+#main>input{
+    display: block;
+    width: 68%;
+    height: 10%;
+    margin-top: 10px;
+    justify-content: space-between;
+    border: none;
+    margin: auto;
+    
+}
+#main>button{
+    display: block;
+    width: 50%;
+    height: 6%;
+    margin-top: 10px;
+    justify-content: space-between;
+    border: none;
+    margin: auto;
+    
+}
+#main>input:nth-child(3){
+    margin-top: 29px;
+    
+}
+#main>input:nth-child(4){
+    margin-top: 29px;
+    
+}
+#main>input:nth-child(5){
+    margin-top: 29px;
+    
+}
+#main>button:nth-child(6){
+    margin-top: 29px;   
+    background-color:rgb(12, 48, 228); 
+    width: 68%;
+    height: 10%;
+    color: aliceblue;
+}
+#main>button:nth-child(5){
+    margin-top: 29px; 
+    background-color:rgb(12, 48, 228);  
+    width: 68%;
+    height: 10%;  
+    color: aliceblue;
+}
+
+
+
+
